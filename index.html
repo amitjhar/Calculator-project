@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   
+ <div class="container">
+    <h1>Calculator</h1>
+    <!-- <div class="calculator" onclick="enter();"> -->
+
+    <input type="text" name="screen" id="screen">
+ 
+
+ <table>
+    <tr>
+        <td><button onclick="del()">del</button></td>
+        <td><button onclick="clr()">ac</button></td>
+        <td><button></button></td>
+        <td><button></button></td>
+    </tr>
+     <tr>
+         <td><button onclick="rparn()">(</button></td>
+         <td><button onclick="lparn()">)</button></td>
+         <td><button onclick="mod()">%</button></td>
+         <td><button onclick="div()">/</button></td>
+     </tr>
+
+     <tr>
+        <td><button onclick="seven()">7</button></td>
+        <td><button onclick="eight()">8</button></td>
+        <td><button onclick="nine()">9</button></td>
+        <td><button onclick="mul()">*</button></td>
+    </tr>
+
+    <tr>
+        <td><button onclick="four()">4</button></td>
+        <td><button onclick="five()">5</button></td>
+        <td><button onclick="six()">6</button></td>
+        <td><button onclick="add()">+</button></td>
+    </tr>
+
+    <tr>
+        <td><button onclick="one()">1</button></td>
+        <td><button onclick="two()">2</button></td>
+        <td><button onclick="three()">3</button></td>
+        <td><button onclick="sub()">-</button></td>
+    </tr>
+
+    <tr>
+        <td><button onclick="zero()">0</button></td>
+        <td><button onclick="dot()">.</button></td>
+        <td><button>=</button></td>
+        <td><button>enter</button></td>
+    </tr>
+ </table>
+</div>
+</div>
+<script src="/js/index.js"></script>
+</body>
+</html>
